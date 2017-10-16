@@ -77,7 +77,6 @@
 			children = (
 				1B9334871F95477C00E5445F /* Cell */,
 				1B9334861F95476F00E5445F /* Model */,
-				1B9334841F95474F00E5445F /* Database */,
 				1B9334711F95472900E5445F /* AppDelegate.swift */,
 				1B9334731F95472900E5445F /* ViewController.swift */,
 				1B9334751F95472900E5445F /* Main.storyboard */,
@@ -87,13 +86,6 @@
 				1B93348C1F954E2900E5445F /* AddViewController.swift */,
 			);
 			path = Planetas;
-			sourceTree = "<group>";
-		};
-		1B9334841F95474F00E5445F /* Database */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Database;
 			sourceTree = "<group>";
 		};
 		1B9334861F95476F00E5445F /* Model */ = {
@@ -412,6 +404,7 @@
 				1B9334821F95472900E5445F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,7 +15,6 @@ class AddViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -27,7 +26,8 @@ class AddViewController: UIViewController {
     @IBAction func add(_ sender:UIButton){
         let planeta:Planeta = Planeta()
         planeta.nombre = name.text!
-        planeta.gravity = Double(planeta.gravity!)
+        planeta.gravity = Double(gravity.text!)        
+        
     }
     
 
