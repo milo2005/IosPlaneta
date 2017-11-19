@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B1B9DED1F98089F00BE6F7E /* PlanetaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B9DEC1F98089F00BE6F7E /* PlanetaDao.swift */; };
 		1B9334721F95472900E5445F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9334711F95472900E5445F /* AppDelegate.swift */; };
 		1B9334741F95472900E5445F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9334731F95472900E5445F /* ViewController.swift */; };
 		1B9334771F95472900E5445F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9334751F95472900E5445F /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		0E2CDB85A1B1FEED565EA537 /* Pods-Planetas.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planetas.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Planetas/Pods-Planetas.debug.xcconfig"; sourceTree = "<group>"; };
+		1B1B9DEC1F98089F00BE6F7E /* PlanetaDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetaDao.swift; sourceTree = "<group>"; };
 		1B93346E1F95472900E5445F /* Planetas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planetas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9334711F95472900E5445F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B9334731F95472900E5445F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1B1B9DEB1F98086800BE6F7E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				1B1B9DEC1F98089F00BE6F7E /* PlanetaDao.swift */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
 		1B9334651F95472800E5445F = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		1B9334701F95472900E5445F /* Planetas */ = {
 			isa = PBXGroup;
 			children = (
+				1B1B9DEB1F98086800BE6F7E /* Database */,
 				1B9334871F95477C00E5445F /* Cell */,
 				1B9334861F95476F00E5445F /* Model */,
 				1B9334711F95472900E5445F /* AppDelegate.swift */,
@@ -238,6 +249,7 @@
 			files = (
 				1B93348D1F954E2900E5445F /* AddViewController.swift in Sources */,
 				1B9334891F95479A00E5445F /* PlanetaTableViewCell.swift in Sources */,
+				1B1B9DED1F98089F00BE6F7E /* PlanetaDao.swift in Sources */,
 				1B93348B1F9547C700E5445F /* Planeta.swift in Sources */,
 				1B9334741F95472900E5445F /* ViewController.swift in Sources */,
 				1B9334721F95472900E5445F /* AppDelegate.swift in Sources */,

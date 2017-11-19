@@ -13,11 +13,16 @@ import Squeal
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let path:String = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first!
     
-
+    var db:Database!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        do{
+            db = try Database(path: "\(path)/planeta.db")
+        }catch{}
+        
         return true
     }
 
